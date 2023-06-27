@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Logo from '../../assets/localtrailerhire-logo-440w.0e935e23e831b554a4f9.png';
+import Logo from '../../assets/logo-dark.png';
 
 const IconLogo = props => {
   const { className, format, ...rest } = props;
@@ -15,7 +15,6 @@ const IconLogo = props => {
         viewBox="0 0 141 26"
         src={Logo}
       ></img>
-      // <div>Lol</div>
     );
   }
 
